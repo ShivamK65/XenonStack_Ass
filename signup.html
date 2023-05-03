@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-K5N5G4/G4db3qH3dwln/YMg+pQ2aZkSFTeKOKpMcx1aW+nKKpBn6T+zTJUijX9UJ8sZu+S6kFV7IvzCwMAV8uA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" integrity="sha512-eUb1tQdxxu8SGvHQV7rLV3q9XVbOu8+rfzV7LuCkmwRzOZsU6dcDg6okgsDK94l9XKfz0cT1+I7YJLwHPOZtcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-ve71quvZYCpI0Jivcw1CgKjG9bey8VW30VTZu1sVzwzLJvFnbVjG5R5D5w5mr5pJv/8YjWJ1he9OqSWtqwPvFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+<link ref="stylesheet" href="https://fontawesome.com/v5/icons/quote-left?f=classic&s=solid" />
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./signup.css">
+    <title>SHOPPING</title>
+</head>
+<body>
+
+        <!-- header -->
+
+     <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-none d-md-block" href="./main.php">SHOPPING</a>
+            <button class="navbar-toggler order-1 order-md-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-3 order-md-1 justify-content-md-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">All Product</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html">Contact Us</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+        <!-- sigup form -->
+
+    <div class="container card border-0 shadow mt-5 mb-5">
+        <form action="" class="form-signup " method="post">
+            <h2 class="d-flex justify-content-center ">Sign Up</h2>
+            <p class="d-flex justify-content-center">Create Your account it's free only take a minute.</p>
+            <div class="form-group mb-2">
+                <input type="username" class="form-control" name="username" placeholder="User Name" required>
+            </div>
+            <div class="form-group mb-2">
+                <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group mb-2">
+                <input type="password" class="form-control" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group mb-2">
+                <input type="repassword" class="form-control" name="confirm_password" placeholder="Confirm Password" required>
+            </div>
+            <div class="form-group mb-2">
+                <label>
+                    <input type="checkbox">
+                    I accpect the <a href="#">Term of Use</a> & <a href="#">Privacy Policy</a>
+                </label>
+            </div>
+            <div class="d-flex justify-content-center mb-2"><input type="submit" class="btn btn-success btn-block " name="reg_user" value="submit"></div>
+            <p class="d-flex justify-content-center mb-2">Already a User ? <a href="./login.php">Log In</a></p>
+        </form>
+    </div>
+</body>
+</html>
